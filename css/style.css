@@ -10,7 +10,7 @@ body {
 
 header {
 
-    background-color: #74C69D;
+    background-color: #213555;
     height: 75.90vh;
  
 }
@@ -27,7 +27,7 @@ section{padding-top: 20px;
 
 footer {
 
-        background-color: #74C69D !important;
+        background-color: #213555 !important;
         height: 18vh;
         padding-top: 9vh;
      
@@ -36,14 +36,14 @@ footer {
 
 main > .container-fluid:nth-child(2) {
         
-    height: 75vh;
+    height: 85vh;
 }
 
 
 
 header , main {    padding: 0 8.33vw !important;}
 
-.navbar { background-color:white;
+.navbar { background-color:white; color: red;
 }
 
 .form-control.is-valid, .was-validated .form-control:valid {
@@ -57,7 +57,7 @@ background-image: url(../images/check.png);
 textarea { resize: transparent;}
 /*this is for the textarea not to be resizable anymore*/
 
-.modal-title { background-color: black; color: white !important;
+.modal-title { color: #213555 !important;
 padding: 0 10px  !important;}
 
 
@@ -131,8 +131,12 @@ header a, section a {
 
 }
 
+section:last-child a{transition-property: backround-color, transform; 
+    transition-duration: 2000ms, 5s; 
+    transform: translateX(0);}
 
-
+section:last-child a:hover{background-color: #B31312!important;
+    transform: translatex(50px);}
 
 
 
