@@ -142,16 +142,21 @@ section:last-child a:hover{background-color: #B31312!important;
 
 @media (max-width: 768px) {
 
-    header {
+    header, #mycarousel {
 
 
         height: auto;
         padding: 40px;
     }
 
-    section:last-child{height:auto;}
+    main > .container-fluid:nth-child(2) {
+        
+        height: auto;
+    }
+    
+    
 
-.header-right{order:-1;}
-.header-left{padding-bottom: 10px;}
+.header-right{order:-1; padding-top:10px}
+.header-left{padding-bottom: 15px;}
 
 }
